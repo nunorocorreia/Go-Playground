@@ -26,11 +26,29 @@ A simple Go project for experimenting with Go programming concepts and features.
    go run ./cmd/main.go
    ```
 
+## Running Tests
+
+Run all tests in the project:
+```
+go test ./...
+```
+
+Run tests with coverage:
+```
+go test -cover ./...
+```
+
+Generate a coverage report:
+```
+go test -coverprofile=coverage.out ./...
+go tool cover -html=coverage.out
+```
+
 ## Project Structure
 
 - `cmd/` - Contains the application entry points
   - `main.go` - Main application entry point
 
-## License
+## Module Information
 
-This project is open source and available under the [MIT License](LICENSE).
+This project uses the Go module name `hello`.
