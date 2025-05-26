@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"hello"
 	"os"
+
+	"github.com/nunorocorreia/Go-Playground/cmd/hello"
 )
 
 func main() {
